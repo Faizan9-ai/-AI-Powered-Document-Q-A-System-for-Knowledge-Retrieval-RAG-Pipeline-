@@ -1,0 +1,24 @@
+# Environment
+.env
+venv/
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+faiss_index/
+uploads/
+*.pdf
+*.txt
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+Custom Knowledge Chatbot Instructions
+
+This chatbot is designed to answer questions from uploaded documents using LangChain and FAISS.
+You can upload files in PDF or TXT format, up to 200MB per file.
+Once uploaded, the system extracts text from the documents, splits it into chunks, embeds them using an embedding model, and stores the embeddings in a FAISS vector store.
+When you ask a question, the chatbot retrieves the most relevant text chunks and passes them to the language model to generate an accurate response.
+
+Common Errors and Fixes:
+- "FAISS file may be unsafe or corrupted": Delete the FAISS index files and rebuild.
+- "Embedding model not found": Check your OpenAI or Hugging Face API keys.
+- "Document too large": Try uploading a smaller file or split your text into multiple uploads.
+
+Version Compatibility:
+Ensure the FAISS and LangChain libraries are up to date. Recommended:
+  - langchain >= 0.1.0
+  - faiss-cpu >= 1.7.4
+  - openai >= 1.0.0

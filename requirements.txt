@@ -1,0 +1,5 @@
+langchain
+huggingface_hub
+transformers
+sentence-transformers
+python-dotenv
