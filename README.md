@@ -70,10 +70,7 @@ This project builds an intelligent document question-answering system that:
 
 ---
 
-## 📸 Demo
-👉 Live App: [Add your Hugging Face / Streamlit link here]
 
-(Add screenshots of the UI here)
 
 ---
 
